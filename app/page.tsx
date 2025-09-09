@@ -8,23 +8,28 @@ import { ShoppingCart, Home, User, Settings, Leaf, Plus } from "lucide-react"
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
-      <div className="bg-gradient-to-r from-green-500 to-emerald-600 text-white p-4 sm:p-6 rounded-b-3xl">
+      <div
+        className="bg-gradient-to-r from-green-500 to-emerald-600 text-white p-4 sm:p-6 rounded-b-3xl"
+        style={{ backgroundColor: "#16a34a" }}
+      >
         <div className="flex items-center gap-3 mb-6">
           <Avatar className="h-14 w-14 sm:h-16 sm:w-16 border-2 border-white">
             <AvatarImage src="/diverse-user-avatars.png" />
             <AvatarFallback className="bg-green-700 text-white text-lg sm:text-xl">أح</AvatarFallback>
           </Avatar>
           <div className="flex-1">
-            <h1 className="text-xl sm:text-2xl font-bold">مرحباً، أحمد!</h1>
+            <h1 className="text-xl sm:text-2xl font-bold" style={{ color: "#ffffff" }}>
+              مرحباً، أحمد!
+            </h1>
             <Badge className="bg-yellow-400 text-green-800 hover:bg-yellow-300 mt-1">
               <Leaf className="h-3 w-3 sm:h-4 sm:w-4 mr-1" />
               محارب البيئة
             </Badge>
           </div>
         </div>
-        <div className="text-center bg-white/10 rounded-2xl p-4 backdrop-blur-sm">
+        <div className="text-center bg-green-700/30 rounded-2xl p-4 backdrop-blur-sm border border-green-400/20">
           <p className="text-green-100 mb-1 text-sm">نقاطك الحالية</p>
-          <p className="text-3xl sm:text-4xl font-bold text-yellow-300">561 نقطة</p>
+          <p className="text-3xl sm:text-4xl font-bold text-white">561 نقطة</p>
         </div>
       </div>
 
@@ -55,7 +60,7 @@ export default function HomePage() {
                   <h3 className="font-semibold text-green-800 text-sm sm:text-base">طماطم طازجة</h3>
                   <div className="flex items-center gap-2 mt-1">
                     <p className="text-green-600 font-bold text-sm sm:text-base">2.4 درهم/كيلو</p>
-                    <p className="text-gray-400 line-through text-xs">3 درهم</p>
+                    <p className="text-gray-600 line-through text-xs">3 درهم</p>
                   </div>
                   <p className="text-xs text-green-500 mt-1">+15 نقطة</p>
                 </div>
@@ -72,7 +77,7 @@ export default function HomePage() {
                   <h3 className="font-semibold text-green-800 text-sm sm:text-base">خس أخضر</h3>
                   <div className="flex items-center gap-2 mt-1">
                     <p className="text-green-600 font-bold text-sm sm:text-base">1.7 درهم/كيلو</p>
-                    <p className="text-gray-400 line-through text-xs">2 درهم</p>
+                    <p className="text-gray-600 line-through text-xs">2 درهم</p>
                   </div>
                   <p className="text-xs text-green-500 mt-1">+10 نقاط</p>
                 </div>
@@ -93,7 +98,7 @@ export default function HomePage() {
                   <h3 className="font-semibold text-green-800 text-sm sm:text-base">جزر عضوي</h3>
                   <div className="flex items-center gap-2 mt-1">
                     <p className="text-green-600 font-bold text-sm sm:text-base">2.5 درهم/كيلو</p>
-                    <p className="text-gray-400 line-through text-xs">3.2 درهم</p>
+                    <p className="text-gray-600 line-through text-xs">3.2 درهم</p>
                   </div>
                   <p className="text-xs text-green-500 mt-1">+18 نقطة</p>
                 </div>

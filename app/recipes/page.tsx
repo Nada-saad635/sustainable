@@ -142,7 +142,7 @@ export default function RecipesPage() {
                         <h3 className="font-bold text-green-800">{recipe.name}</h3>
                         <div className="flex items-center gap-1">
                           {recipe.sustainable && <Badge className="bg-green-100 text-green-700 text-xs">مستدام</Badge>}
-                          <Bookmark className="h-4 w-4 text-gray-400" />
+                          <Bookmark className="h-4 w-4 text-gray-600" />
                         </div>
                       </div>
 

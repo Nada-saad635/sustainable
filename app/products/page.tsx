@@ -119,7 +119,7 @@ export default function ProductsPage() {
                     <div className="flex flex-col gap-0.5 mb-1">
                       <p className="text-green-600 font-bold text-xs">{product.price} د.إ/كيلو</p>
                       {product.originalPrice && (
-                        <p className="text-gray-400 line-through text-[10px]">{product.originalPrice} د.إ</p>
+                        <p className="text-gray-600 line-through text-[10px]">{product.originalPrice} د.إ</p>
                       )}
                     </div>
                     <div className="flex items-center justify-between">

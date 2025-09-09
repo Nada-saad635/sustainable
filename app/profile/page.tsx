@@ -43,7 +43,7 @@ export default function ProfilePage() {
             <AvatarFallback className="bg-green-700 text-white text-xl sm:text-2xl">أح</AvatarFallback>
           </Avatar>
           <h2 className="text-xl sm:text-2xl font-bold mb-2">أحمد محمد العلي</h2>
-          <p className="text-green-100 mb-3 text-sm sm:text-base">{""}</p>
+          <p className="text-white mb-3 text-sm sm:text-base">{""}</p>
           <Badge className="bg-yellow-400 text-green-800 hover:bg-yellow-300 text-base sm:text-lg px-4 py-2">
             <Leaf className="h-4 w-4 sm:h-5 sm:w-5 mr-2" />
             محارب البيئة
